@@ -12,7 +12,7 @@ class SignUpForm(UserCreationForm):
         attrs={'class':'form-control', 
         'placeholder':'First Name'}))
     last_name = forms.CharField(
-        label="", max_length=100, widget=forms.TextInput(
+        label="", max_length=100, widget=forms.TimeInput(
         attrs={'class':'form-control', 
         'placeholder':'Last Name'}))
 
